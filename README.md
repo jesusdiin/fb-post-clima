@@ -1,0 +1,1 @@
+Una herramienta generadora de imágenes con automatización para publicar el clima en Facebook
