@@ -9,7 +9,7 @@ export const createPostClima = async (req, res) => {
 
 	// await screen()
 
-    // const data = req.body;
+    const data = req.body;
     // console.log(data);
 	
 
@@ -32,6 +32,8 @@ export const createPostClima = async (req, res) => {
 			console.log(error);
 			res.json({error})
 	});
+
+	return data;
 
 }
 
