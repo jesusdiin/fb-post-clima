@@ -1,25 +1,29 @@
 require('dotenv').config();
 import axios from "axios";
+// import screen from "../libs/generateImage";
 
 const pageId = process.env.PAGE_ID
 const accesToken = process.env.ACCESS_TOKEN
 
-export const createPostClima = (req, res) => {
+export const createPostClima = async (req, res) => {
 
-    const data = req.body;
-    console.log(data)
+	// await screen()
 
-    const text = req.body.text;
-    const img = 'https://img.freepik.com/vector-premium/lindo-pequeno-armadillo-dibujos-animados-corriendo_188253-4527.jpg'
-	const description = 'Holaa que hace'
+    // const data = req.body;
+    // console.log(data);
+	
 
-	var config = {
+    // const text = req.body.text;
+    const img = 'https://t1.uc.ltmcdn.com/es/posts/3/5/9/para_que_sirve_el_agua_de_coco_49953_orig.jpg'
+	const description = 'Holaa que k hac'
+
+	var configg = {
 		method: "post",
 		url: `https://graph.facebook.com/v14.0/${pageId}/photos?url=${img}&caption=${description}&access_token=${accesToken}`,
 		headers: {},
 	};
 
-	axios(config)
+	axios(configg)
 		.then(function (response) {
 			console.log(JSON.stringify(response.data));
 			res.status(200).json({res: 'Succes ok 200'})

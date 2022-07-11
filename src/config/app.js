@@ -1,5 +1,6 @@
 require('dotenv').config();
 import bodyParser from "body-parser";
+const path = require('path');
 import express from "express";
 import morgan from "morgan";
 import pkg from "../../package.json";
@@ -17,6 +18,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 app.set('pkg', pkg);
 
+app.use('/img', express.static(path.join(__dirname, '../public/img/temp')));       
 
 app.get('/', (req, res) => {
     res.json({
