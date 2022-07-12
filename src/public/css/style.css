@@ -11,4 +11,5 @@ body {
     width: 1080px;
     height: 1350px;
     background-color: azure;
+    border: 10px solid red;
 }
