@@ -3,13 +3,31 @@
     box-sizing: border-box;
 }
 
-body { 
-    background-color: black;
+body {
+    background-color: #000;
 }
 
-.card {
+.rootCard {
     width: 1080px;
     height: 1350px;
-    background-color: azure;
-    border: 10px solid red;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgCard {
+    width: 90%;
+    height: 90%;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    border-radius: 12px;
+}
+
+
+.footerCard {
+    width: 972px;
+    position: relative;
+    bottom: -800px;
 }
