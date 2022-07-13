@@ -14,7 +14,7 @@ export const createPostClima = async (req, res) => {
 	
 
     // const text = req.body.text;
-    const img = 'https://t1.uc.ltmcdn.com/es/posts/3/5/9/para_que_sirve_el_agua_de_coco_49953_orig.jpg'
+    const img = 'https://clima.lamaschingona.com.mx/img/clima.png'
 	const description = 'Holaa que k hac'
 
 	var configg = {
