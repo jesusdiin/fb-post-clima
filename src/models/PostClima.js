@@ -11,7 +11,7 @@ const climatSchema = new Schema({
     code: Number,
     description: String,
     velocidadViento: Number,
-    gardosViento: Number,
+    gradosViento: Number,
     directionViento: String,
     presion: Number,
     precipitacion: Number,

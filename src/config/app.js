@@ -7,7 +7,11 @@ import pkg from "../../package.json";
 
 import postRoutes from "../routes/post.routes";
 
+import {createClimaDefault} from '../libs/initialSetUp';
+
 const app = express();
+createClimaDefault();
+
 app.set('port', Number(process.env.PORT) || 3344);
 app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'pug');
