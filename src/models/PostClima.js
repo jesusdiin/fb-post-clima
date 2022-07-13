@@ -7,7 +7,19 @@ const climatSchema = new Schema({
     longitud: String,
     latitud: String,
     horalocal: String,
-    temperatura: Number
+    temperatura: Number,
+    code: Number,
+    description: String,
+    velocidadViento: Number,
+    gardosViento: Number,
+    directionViento: String,
+    presion: Number,
+    precipitacion: Number,
+    humedad: Number,
+    nubusidad: Number,
+    rayosUv: Number,
+    visibilidad: Number,
+    isDay: String
 }, {
     timestamps: true,
     versionKey: false
