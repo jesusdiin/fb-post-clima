@@ -1,0 +1,337 @@
+[
+    {
+        "codeWeather": 395,
+        "en": "Moderate or heavy snow in area with thunder",
+        "es": "Nevadas moderadas o fuertes en zona con truenos",
+        "DayIcon": "wsymbol_0012_heavy_snow_showers",
+        "NightIcon": "wsymbol_0028_heavy_snow_showers_night"
+    },
+    {
+        "codeWeather": 392,
+        "en": "Patchy light snow in area with thunder",
+        "es": "Nieve ligera irregular en área con truenos",
+        "DayIcon": "wsymbol_0016_thundery_showers",
+        "NightIcon": "wsymbol_0032_thundery_showers_night"
+    },
+    {
+        "codeWeather": 389,
+        "en": "Moderate or heavy rain in area with thunder",
+        "es": "Lluvia moderada o intensa en zona con truenos",
+        "DayIcon": "wsymbol_0024_thunderstorms",
+        "NightIcon": "wsymbol_0040_thunderstorms_night"
+    },
+    {
+        "codeWeather": 386,
+        "en": "Patchy light rain in area with thunder",
+        "es": "Lluvia ligera irregular en zona con truenos",
+        "DayIcon": "wsymbol_0016_thundery_showers",
+        "NightIcon": "wsymbol_0032_thundery_showers_night"
+    },
+    {
+        "codeWeather": 377,
+        "en": "Moderate or heavy showers of ice pellets",
+        "es": "Lluvias moderadas o fuertes de gránulos de hielo",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 374,
+        "en": "Light showers of ice pellets",
+        "es": "Ligeras lluvias de gránulos de hielo",
+        "DayIcon": "wsymbol_0013_sleet_showers",
+        "NightIcon": "wsymbol_0029_sleet_showers_night"
+    },
+    {
+        "codeWeather": 371,
+        "en": "Moderate or heavy snow showers",
+        "es": "Nevadas moderadas o intensas",
+        "DayIcon": "wsymbol_0012_heavy_snow_showers",
+        "NightIcon": "wsymbol_0028_heavy_snow_showers_night"
+    },
+    {
+        "codeWeather": 368,
+        "en": "Light snow showers",
+        "es": "Pequeños chubascos de nieve",
+        "DayIcon": "wsymbol_0011_light_snow_showers",
+        "NightIcon": "wsymbol_0027_light_snow_showers_night"
+    },
+    {
+        "codeWeather": 365,
+        "en": "Moderate or heavy sleet showers",
+        "es": "Lluvias moderadas o fuertes de aguanieve",
+        "DayIcon": "wsymbol_0013_sleet_showers",
+        "NightIcon": "wsymbol_0029_sleet_showers_night"
+    },
+    {
+        "codeWeather": 362,
+        "en": "Light sleet showers",
+        "es": "Lluvias ligeras de aguanieve",
+        "DayIcon": "wsymbol_0013_sleet_showers",
+        "NightIcon": "wsymbol_0029_sleet_showers_night"
+    },
+    {
+        "codeWeather": 359,
+        "en": "Torrential rain shower",
+        "es": "Lluvia torrencial",
+        "DayIcon": "wsymbol_0018_cloudy_with_heavy_rain",
+        "NightIcon": "wsymbol_0034_cloudy_with_heavy_rain_night"
+    },
+    {
+        "codeWeather": 356,
+        "en": "Moderate or heavy rain shower",
+        "es": "Lluvia moderada o fuerte",
+        "DayIcon": "wsymbol_0010_heavy_rain_showers",
+        "NightIcon": "wsymbol_0026_heavy_rain_showers_night"
+    },
+    {
+        "codeWeather": 353,
+        "en": "Light rain shower",
+        "es": "Lluvia ligera",
+        "DayIcon": "wsymbol_0009_light_rain_showers",
+        "NightIcon": "wsymbol_0025_light_rain_showers_night"
+    },
+    {
+        "codeWeather": 350,
+        "en": "Ice pellets",
+        "es": "Bolitas de hielo",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 338,
+        "en": "Heavy snow",
+        "es": "Nevada fuerte",
+        "DayIcon": "wsymbol_0020_cloudy_with_heavy_snow",
+        "NightIcon": "wsymbol_0036_cloudy_with_heavy_snow_night"
+    },
+    {
+        "codeWeather": 335,
+        "en": "Patchy heavy snow",
+        "es": "Nieve intensa irregular",
+        "DayIcon": "wsymbol_0012_heavy_snow_showers",
+        "NightIcon": "wsymbol_0028_heavy_snow_showers_night"
+    },
+    {
+        "codeWeather": 332,
+        "en": "Moderate snow",
+        "es": "Nieve moderada",
+        "DayIcon": "wsymbol_0020_cloudy_with_heavy_snow",
+        "NightIcon": "wsymbol_0036_cloudy_with_heavy_snow_night"
+    },
+    {
+        "codeWeather": 329,
+        "en": "Patchy moderate snow",
+        "es": "Nieve moderada irregular",
+        "DayIcon": "wsymbol_0020_cloudy_with_heavy_snow",
+        "NightIcon": "wsymbol_0036_cloudy_with_heavy_snow_night"
+    },
+    {
+        "codeWeather": 326,
+        "en": "Light snow",
+        "es": "Nieve ligera",
+        "DayIcon": "wsymbol_0011_light_snow_showers",
+        "NightIcon": "wsymbol_0027_light_snow_showers_night"
+    },
+    {
+        "codeWeather": 323,
+        "en": "Patchy light snow",
+        "es": "Nieve ligera irregular",
+        "DayIcon": "wsymbol_0011_light_snow_showers",
+        "NightIcon": "wsymbol_0027_light_snow_showers_night"
+    },
+    {
+        "codeWeather": 320,
+        "en": "Moderate or heavy sleet",
+        "es": "Aguanieve moderada o fuerte",
+        "DayIcon": "wsymbol_0019_cloudy_with_light_snow",
+        "NightIcon": "wsymbol_0035_cloudy_with_light_snow_night"
+    },
+    {
+        "codeWeather": 317,
+        "en": "Light sleet",
+        "es": "Ligera aguanieve",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 314,
+        "en": "Moderate or Heavy freezing rain",
+        "es": "Lluvia helada moderada o fuerte",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 311,
+        "en": "Light freezing rain",
+        "es": "Lluvia helada ligera",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 308,
+        "en": "Heavy rain",
+        "es": "Lluvia intensa",
+        "DayIcon": "wsymbol_0018_cloudy_with_heavy_rain",
+        "NightIcon": "wsymbol_0034_cloudy_with_heavy_rain_night"
+    },
+    {
+        "codeWeather": 305,
+        "en": "Heavy rain at times",
+        "es": "Lluvia fuerte a veces",
+        "DayIcon": "wsymbol_0010_heavy_rain_showers",
+        "NightIcon": "wsymbol_0026_heavy_rain_showers_night"
+    },
+    {
+        "codeWeather": 302,
+        "en": "Moderate rain",
+        "es": "Lluvia moderada",
+        "DayIcon": "wsymbol_0018_cloudy_with_heavy_rain",
+        "NightIcon": "wsymbol_0034_cloudy_with_heavy_rain_night"
+    },
+    {
+        "codeWeather": 299,
+        "en": "Moderate rain at times",
+        "es": "Lluvia moderada a veces",
+        "DayIcon": "wsymbol_0010_heavy_rain_showers",
+        "NightIcon": "wsymbol_0026_heavy_rain_showers_night"
+    },
+    {
+        "codeWeather": 296,
+        "en": "Light rain",
+        "es": "Lluvia ligera",
+        "DayIcon": "wsymbol_0017_cloudy_with_light_rain",
+        "NightIcon": "wsymbol_0025_light_rain_showers_night"
+    },
+    {
+        "codeWeather": 293,
+        "en": "Patchy light rain",
+        "es": "Lluvia ligera irregular",
+        "DayIcon": "wsymbol_0017_cloudy_with_light_rain",
+        "NightIcon": "wsymbol_0033_cloudy_with_light_rain_night"
+    },
+    {
+        "codeWeather": 284,
+        "en": "Heavy freezing drizzle",
+        "es": "Llovizna helada fuerte",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 281,
+        "en": "Freezing drizzle",
+        "es": "Llovizna helada",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 266,
+        "en": "Light drizzle",
+        "es": "Llovizna ligera",
+        "DayIcon": "wsymbol_0017_cloudy_with_light_rain",
+        "NightIcon": "wsymbol_0033_cloudy_with_light_rain_night"
+    },
+    {
+        "codeWeather": 263,
+        "en": "Patchy light drizzle",
+        "es": "Llovizna ligera irregular",
+        "DayIcon": "wsymbol_0009_light_rain_showers",
+        "NightIcon": "wsymbol_0025_light_rain_showers_night"
+    },
+    {
+        "codeWeather": 260,
+        "en": "Freezing fog",
+        "es": "Niebla helada",
+        "DayIcon": "wsymbol_0007_fog",
+        "NightIcon": "wsymbol_0007_fog"
+    },
+    {
+        "codeWeather": 248,
+        "en": "Fog",
+        "es": "Niebla",
+        "DayIcon": "wsymbol_0007_fog",
+        "NightIcon": "wsymbol_0007_fog"
+    },
+    {
+        "codeWeather": 230,
+        "en": "Blizzard",
+        "es": "Tormenta de Nieve",
+        "DayIcon": "wsymbol_0020_cloudy_with_heavy_snow",
+        "NightIcon": "wsymbol_0036_cloudy_with_heavy_snow_night"
+    },
+    {
+        "codeWeather": 227,
+        "en": "Blowing snow",
+        "DayIcon": "wsymbol_0019_cloudy_with_light_snow",
+        "NightIcon": "wsymbol_0035_cloudy_with_light_snow_night"
+    },
+    {
+        "codeWeather": 200,
+        "en": "Thundery outbreaks in nearby",
+        "es": "Brotes de truenos en las cercanías",
+        "DayIcon": "wsymbol_0016_thundery_showers",
+        "NightIcon": "wsymbol_0032_thundery_showers_night"
+    },
+    {
+        "codeWeather": 185,
+        "en": "Patchy freezing drizzle nearby",
+        "es": "Parches de llovizna helada cerca",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 182,
+        "en": "Patchy sleet nearby",
+        "es": "Parches de aguanieve cerca",
+        "DayIcon": "wsymbol_0021_cloudy_with_sleet",
+        "NightIcon": "wsymbol_0037_cloudy_with_sleet_night"
+    },
+    {
+        "codeWeather": 179,
+        "en": "Patchy snow nearby",
+        "es": "Parches de nieve cerca",
+        "DayIcon": "wsymbol_0013_sleet_showers",
+        "NightIcon": "wsymbol_0029_sleet_showers_night"
+    },
+    {
+        "codeWeather": 176,
+        "en": "Patchy rain nearby",
+        "es": "Lluvia irregular cerca",
+        "DayIcon": "wsymbol_0009_light_rain_showers",
+        "NightIcon": "wsymbol_0025_light_rain_showers_night"
+    },
+    {
+        "codeWeather": 143,
+        "en": "Mist",
+        "es": "Niebla",
+        "DayIcon": "wsymbol_0006_mist",
+        "NightIcon": "wsymbol_0006_mist"
+    },
+    {
+        "codeWeather": 122,
+        "en": "Overcast",
+        "es": "Nublado",
+        "DayIcon": "wsymbol_0004_black_low_cloud",
+        "NightIcon": "wsymbol_0004_black_low_cloud"
+    },
+    {
+        "codeWeather": 119,
+        "en": "Cloudy",
+        "es": "Nublado",
+        "DayIcon": "wsymbol_0003_white_cloud",
+        "NightIcon": "wsymbol_0004_black_low_cloud"
+    },
+    {
+        "codeWeather": 116,
+        "en": "Partly Cloudy",
+        "es": "Parcialmente nublado",
+        "DayIcon": "wsymbol_0002_sunny_intervals",
+        "NightIcon": "wsymbol_0008_clear_sky_night"
+    },
+    {
+        "codeWeather": 113,
+        "en": "Clear/Sunny",
+        "es": "Claro/Soleado",
+        "DayIcon": "wsymbol_0001_sunny",
+        "NightIcon": "wsymbol_0008_clear_sky_night"
+    }
+]

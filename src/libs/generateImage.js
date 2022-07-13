@@ -23,5 +23,5 @@ const screen = async () => {
 
     await browser.close();
 };
-screen()
-// export default screen;
+// screen()
+export default screen;
