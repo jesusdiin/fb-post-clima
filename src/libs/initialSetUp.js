@@ -28,7 +28,7 @@ export const createClimaDefault = async () => {
                 rayosUv: 2,
                 visibilidad: 4,
                 isDay: 'si'
-            })
+            }).save()
         ])
     
         console.log(values);

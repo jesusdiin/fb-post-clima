@@ -21,20 +21,56 @@ export const createPostClima = async (req, res) => {
     axios(config)
         .then(function (responseClima) {
             console.log(JSON.stringify(responseClima.data));
+			const {name, country, region, lat, lon, localtime} = responseClima.data.location
+			const {temperature, weather_code, weather_descriptions, wind_speed, wind_degree, wind_dir, pressure, precip, humidity, cloudcover, feelslike, uv_index, visibility, is_day} = responseClima.data.current
+
+			console.log(name, region, country)
+
+			const deleteClimaFn = async () => {
+				const eliminar = await Clima.deleteMany({})
+			}
+
+			deleteClimaFn()
+
+			const newClima = async () => {
+				new Clima({
+					city: name,
+					estado: region,
+					pais: country,
+					longitud: lon,
+					latitud: lat,
+					horalocal: localtime,
+					temperatura: temperature,
+					code: weather_code,
+					description: weather_descriptions,
+					velocidadViento: wind_speed,
+					gradosViento: wind_degree,
+					directionViento: wind_dir,
+					presion: pressure,
+					precipitacion: precip,
+					humedad: humidity,
+					nubusidad: cloudcover,
+					rayosUv: uv_index,
+					visibilidad: visibility,
+					isDay: is_day
+				}).save()
+			}
+			newClima()
+
+
         })
         .catch(function (error) {
             console.log(error);
     });
 
-
-	await screen()
-
     const dataPost = req.body;
     console.log(dataPost, 'jhhi');
 
+	await screen()
+
     // const text = req.body.text;
     const img = 'https://clima.lamaschingona.com.mx/img/clima.png'
-	const description = 'Holaa que k hac'
+	const description = 'Prueba hsfdhdfkdnjcisdicdjicdeoies'
 
 	var configg = {
 		method: "post",
@@ -52,6 +88,13 @@ export const createPostClima = async (req, res) => {
 			res.json({error})
 	});
 
+}
+
+
+export const getClimaDb = async (req, res) => {
+	const dataClimaDb = await Clima.find();
+	console.log(dataClimaDb[0])
+	res.render('clima', {data: dataClimaDb})
 }
 
 
