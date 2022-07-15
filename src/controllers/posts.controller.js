@@ -63,11 +63,10 @@ export const createPostClima = async (req, res) => {
             console.log(error);
     });
 
-
-	await screen()
-
     const dataPost = req.body;
     console.log(dataPost, 'jhhi');
+
+	await screen()
 
     // const text = req.body.text;
     const img = 'https://clima.lamaschingona.com.mx/img/clima.png'
@@ -79,16 +78,23 @@ export const createPostClima = async (req, res) => {
 		headers: {},
 	};
 
-	// axios(configg)
-	// 	.then(function (response) {
-	// 		console.log(JSON.stringify(response.data));
-	// 		res.status(200).json({res: 'Succes ok 200'})
-	// 	})
-	// 	.catch(function (error) {
-	// 		console.log(error);
-	// 		res.json({error})
-	// });
+	axios(configg)
+		.then(function (response) {
+			console.log(JSON.stringify(response.data));
+			res.status(200).json({res: 'Succes ok 200'})
+		})
+		.catch(function (error) {
+			console.log(error);
+			res.json({error})
+	});
 
+}
+
+
+export const getClimaDb = async (req, res) => {
+	const dataClimaDb = await Clima.find();
+	console.log(dataClimaDb[0])
+	res.render('clima', {data: dataClimaDb})
 }
 
 
