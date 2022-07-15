@@ -22,7 +22,7 @@ export const createPostClima = async (req, res) => {
         .then(function (responseClima) {
             console.log(JSON.stringify(responseClima.data));
 			const {name, country, region, lat, lon, localtime} = responseClima.data.location
-			const {temperature, weather_code, weather_descriptions, wind_speed, wind_degree, wind_dir, pressure, precip, humidity, cloudcover, feelslike, uv_index, visibility, is_day} = responseClima.data.current
+			const {temperature, weather_code, weather_icons, weather_descriptions, wind_speed, wind_degree, wind_dir, pressure, precip, humidity, cloudcover, feelslike, uv_index, visibility, is_day} = responseClima.data.current
 
 			console.log(name, region, country)
 
@@ -33,7 +33,7 @@ export const createPostClima = async (req, res) => {
 			deleteClimaFn()
 
 			const newClima = async () => {
-				new Clima({
+				await new Clima({
 					city: name,
 					estado: region,
 					pais: country,
@@ -42,6 +42,7 @@ export const createPostClima = async (req, res) => {
 					horalocal: localtime,
 					temperatura: temperature,
 					code: weather_code,
+					iconsDefault: weather_icons,
 					description: weather_descriptions,
 					velocidadViento: wind_speed,
 					gradosViento: wind_degree,
@@ -69,7 +70,7 @@ export const createPostClima = async (req, res) => {
 	await screen()
 
     // const text = req.body.text;
-    const img = 'https://clima.lamaschingona.com.mx/img/clima.png'
+    const img = 'https://clima.lamaschingona.com.mx/img/temp/clima.png'
 	const description = 'Prueba hsfdhdfkdnjcisdicdjicdeoies'
 
 	var configg = {
