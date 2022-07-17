@@ -9,6 +9,7 @@ const climatSchema = new Schema({
     horalocal: String,
     temperatura: Number,
     code: Number,
+    iconsDefault: Object,
     description: Object,
     velocidadViento: Number,
     gradosViento: Number,

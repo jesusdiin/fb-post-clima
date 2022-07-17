@@ -17,6 +17,7 @@ export const createClimaDefault = async () => {
                 horalocal: '00:00',
                 temperatura: 27,
                 code: 113,
+                iconsDefault: {},
                 description: 'Claro/Soleado',
                 velocidadViento: 5,
                 gradosViento: 55,

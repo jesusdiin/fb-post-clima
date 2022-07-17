@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 app.set('pkg', pkg);
 
-app.use('/img', express.static(path.join(__dirname, '../public/img/temp')));
+app.use('/img', express.static(path.join(__dirname, '../public/img')));
 app.use('/css', express.static(path.join(__dirname, '../public/css')));       
 
 app.get('/', (req, res) => {
