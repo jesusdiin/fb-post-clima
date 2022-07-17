@@ -65,7 +65,6 @@ export const createPostClima = async (req, res) => {
     });
 
     const dataPost = req.body;
-    console.log(dataPost, 'jhhi');
 
 	await screen()
 
