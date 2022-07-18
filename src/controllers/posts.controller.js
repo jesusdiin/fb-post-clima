@@ -2,12 +2,15 @@ require('dotenv').config();
 import axios from "axios";
 import screen from "../libs/generateImage";
 import Clima from '../models/PostClima';
+import translate from '../libs/translate.json'
 
 const pageId = process.env.PAGE_ID
 const accesToken = process.env.ACCESS_TOKEN
 const apiKeyClima = process.env.KEY_CLIMA
 const city = process.env.CITY
 
+
+const found = translate.find(e => e.en = 'Patchy light rain in area with thunder')
 
 
 export const createPostClima = async (req, res) => {
